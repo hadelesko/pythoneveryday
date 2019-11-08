@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+{% block body %}
+<h1>My First Projet</h1>
+
+<p>My first paragraph.</p>
+<ul>
+    {%for l in fl%}
+	{{ l }} 
+    {%endfor%}   
+</ul>
+{%endblock%} 
+</body>
+</html>
